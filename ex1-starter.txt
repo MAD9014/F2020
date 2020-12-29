@@ -1,0 +1,54 @@
+/*************************
+ *
+ *  @description Tell us what this file does
+ *
+ *  @author Full Name username@algonquinlive.com
+ *
+ *  @version Jan 1, 2020
+ *
+ ***********************/
+
+/**
+ * The getRandomInt function accepts two integers to use as
+ * the min and max values.
+ * It will then generate and return a random integer.
+ * Do NOT change this function.
+ ***/
+function getRandomInt(min, max) {
+  let range = max - min;
+  let num = Math.floor(Math.random() * range) + min;
+  return num;
+}
+
+// Provided Arrays
+// Leave the pronouns Array as it is
+// Each of the other arrays below needs to have at least 10 strings that you choose
+// Each of the values in openings should end with a comma
+let openings = ["Once upon a time,", "As the sun began to rise,"];
+let pronouns = ["they", "we", "you", "he", "she", "I"];
+let verbs = ["walked", "ran"];
+let adverbs = ["menacingly", "intentionally"];
+let prepositions = ["over", "under", "towards", "behind"];
+let adjectives = ["wild", "slippery"];
+let nouns = ["dragons", "toasters"];
+let closings = ["with extra cheese", "the end"];
+
+/**
+ * SECOND function
+ * Name this function appropriately.
+ * This function will use console.log to output a newline character
+ * followed by the string value passed to the function
+ * and then another newline character
+ * */
+
+/**
+ * THIRD function
+ * Name this function appropriately.
+ * This function will use the getRandomInt() function to randomly
+ * select a single value from each of the eight provided Arrays.
+ * Next it will concatenate all eight Strings into a single String.
+ * Concatenate them in the order they are declared.
+ * Leave a space between each of the Strings as you concatenate them.
+ * Finally, it will call the second function and pass the new String
+ * to be output.
+ * */
